@@ -1,0 +1,80 @@
+.testimonail-container{
+    /* margin: 2rem 4rem;
+    position: relative;
+    align-items: center; */
+    width: 40%;
+    padding-bottom: 9rem;
+   
+}
+.contianer .testimonail-container{
+    padding-bottom: 10rem;
+}
+.testimonial-data{ 
+background: var(--color-bg-variant);
+padding: 2rem 2rem;
+border-radius: 1rem;
+align-items: center;
+
+}
+.testimonial-data>img{
+height: 5rem;
+width: 5rem;
+margin: 0 auto 1rem;
+border-radius: 5rem;
+border: 3px solid whitesmoke;
+}
+.testimonial-data>h3{
+text-align: center;
+}
+.testimonial-data>p{
+text-align: center;
+}
+.swiper-pagination{
+    bottom:15px;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    background-color: aliceblue;
+    margin: 0rem 3.5rem;
+}
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 600px){
+    .testimonail-container{
+        height: 30rem;
+        width: 50rem;
+    }
+    .testimonial-data{
+        border-radius: 3rem;
+        padding: 3rem 4rem 0rem 4rem;
+    }
+    .testimonial-data>h3{
+        font-size: 2.5rem;
+    }
+    .testimonial-data>p{
+        font-size: 2rem;
+    }
+    .swiper-pagination-clickable .swiper-pagination-bullet{
+        height: 1.5rem;
+        width: 1.5rem;
+        margin: 0rem 3.5rem;
+    }
+
+}
+
+/* ================tablet=============== */
+@media only screen   
+and (min-device-width : 601px)   
+and (max-device-width : 1025px){
+    .testimonail-container{
+        height: 20rem;
+        width: 40rem;
+        position: absolute;
+        margin-left: 12rem;
+    }
+    .swiper{
+        position: absolute;
+        left:3.5rem
+    }
+    
+}

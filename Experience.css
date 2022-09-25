@@ -1,0 +1,144 @@
+.Ex-Container{
+  padding:0rem 1rem;
+  display: flex;
+  gap:2rem;
+}
+.Ex{
+    display: flex;
+    gap:2rem;
+}
+.Ex-right{
+    display: flex;
+    gap:2rem;
+}
+.Ex-FrontEnd-data{
+display: flex;
+gap:2rem;
+}
+.Ex-BackEnd-data{
+    display: flex;
+    gap:1.7rem;
+}
+
+.Ex-FrontEnd{
+    border: 2px solid var(--color-primary);
+    border-radius: 10%;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.Ex-FrontEnd-data{
+    gap: 10rem;
+    padding: 2rem 4rem;
+}
+.Ex-left-item{
+    gap:10rem;
+}
+.Ex-Backend{
+    border: 2px solid var(--color-primary);
+    border-radius: 10%;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    text-align: center;
+    background: var(--color-bg-variant);
+}
+.Ex-right-left{
+    gap: 10rem;
+    padding: 2rem 4rem;
+}
+.Ex-right-right {
+    gap: 10rem;
+    padding: 2rem 4rem;
+}
+
+.Ex-name{
+display: flex;
+flex-direction:column;
+align-items: baseline;
+}
+.experience-detail{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 1rem;
+}
+.experience-detail>svg{
+    margin-top: 0.3rem;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 600px){
+    .Ex-Container {
+        flex-direction: column;
+        padding: 0rem 4rem;
+        display: flex;
+        gap: 3rem;
+    }
+    .Ex-FrontEnd-data {
+        gap: 12rem;
+        font-size: 2.5rem;
+        border-radius: 17rem;
+        padding: 4rem 3rem;
+    }
+    .Ex-BackEnd-data {
+        gap: 1rem;
+        font-size: 2.5rem;
+        border-radius: 17rem;
+        padding: 2rem 1rem;
+        display: flex;
+    
+    }
+    h2{
+        padding-top:1.2rem ;
+        font-size: 3rem;
+    }
+    .experience-detail>svg{
+        margin-top: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+
+
+/* ==========tablet================ */
+@media only screen   
+and (min-device-width : 601px)   
+and (max-device-width : 1025px){
+    section>h5{
+        margin-left: 11rem;
+    }
+    section>h2{
+        margin-left: 11rem;
+        margin-bottom: 2rem;
+    }
+    .Ex-Container{
+        display: flex;
+        flex-direction: column;
+    }
+    .Ex-FrontEnd {
+        padding: 1rem 5rem;
+        margin-left: 10rem;
+    }
+    .Ex-FrontEnd>h2{
+        margin-top: 1rem;
+        font-size: 1.8rem;
+    }
+    .Ex-FrontEnd-data{
+        font-size: 1.4rem;
+        padding: 2rem 3rem;
+    }
+    .Ex-Backend{
+        margin-left: 9rem;
+    }
+    .Ex-BackEnd-data {
+        display: flex;
+        gap: 1.7rem;
+        font-size: 1.3rem;
+        padding: 2rem 5rem;
+        margin-top: -2rem;
+    }
+
+}

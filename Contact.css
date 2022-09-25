@@ -1,0 +1,106 @@
+#Contact{
+ padding: 2rem 12rem;
+}
+.contact-container{
+display: grid;
+grid-template-columns:  30% 50%;
+gap: 12%;
+position: relative;
+}
+.contact-left{
+position: relative;
+}
+.contact-data{
+    margin:1rem ;
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-variant);
+    border-radius: 1.3rem;
+    align-items: center;
+    text-align: center;
+    gap: 0.7rem;
+}
+.contact-data>svg{
+    height:1.5rem;
+    width: 1.5rem;
+}
+.contact-data>h3{
+    font-size: 0.9rem;
+}
+.contact-data>h4{
+    font-size: 0.9rem
+}
+form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+input, textarea{
+    border: 2px solid var(--color-bg-variant);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background: none;
+    color: white;
+}
+/* .btn{
+    background-color: var(--color-primary);
+    color: var(--color-bg-variant);
+} */
+
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 600px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-data{
+        height: 20rem;
+        width: 35rem;
+        padding-top: 4rem;
+    }
+    .contact-data>svg{
+        height:2.2rem;
+        width:2.2rem;
+    }
+    .contact-data>h3{
+        font-size: 1.9rem;
+    }
+    .contact-data>h4{
+        font-size: 1.5rem;
+    }
+    .contact-data>a{
+        font-size: 1.5rem;
+    }
+
+    input, textarea{
+        border: 2px solid var(--color-bg-variant);
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        background: none;
+        color: white;
+        font-size: 2rem;
+    }
+    
+}
+/* =====================Tablet============== */
+@media only screen   
+and (min-device-width : 601px)   
+and (max-device-width : 1025px)
+{
+    .contact-container{
+        gap:30%;
+    }
+    .contact-data{
+        margin-top: 1rem;
+       height: 10rem;
+       width: 14rem;
+       padding: 1rem 1rem;
+    }
+    .contact-data>svg{
+        height:1rem;
+        width:1rem;
+    }
+}

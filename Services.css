@@ -1,0 +1,83 @@
+#Services{
+    margin: 4rem 2rem;
+  
+}
+.service{
+border: 2px solid var(--color-primary);
+border-radius: 0rem 0rem 2rem 2rem;
+background: var(--color-bg);
+}
+
+.services-container{
+    gap:2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.service-list{
+    padding: 1rem 2rem; 
+}
+.service-head{
+    text-align: center;
+    background: var(--color-primary);
+    border-radius: 0rem 0rem 2rem 2rem;
+    height: 6rem;
+    padding:2rem 2rem;
+}
+ul>li{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+li>svg{
+    height:3rem;
+    width:3rem;
+}
+
+/* =====================Mobile Responsive================= */
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 600px){
+    .services-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .service-head{
+        padding: 4rem 1rem;
+        height: 12rem;
+        font-size: 2.2rem;
+    }
+    .service-list{
+        padding: 1rem 1rem; 
+    }
+    .service{
+        margin:2rem 6rem
+    }
+    ul>li{
+        padding: 1rem 2rem;
+        font-size: 2rem;
+    }
+    li>svg{
+        height: 3rem;
+        width: 4rem;
+        margin-top: 1rem;
+    }
+    li{
+        padding: 0rem 2rem;
+    }
+}
+
+/* =============tablet=========== */
+@media only screen   
+and (min-device-width : 601px)   
+and (max-device-width : 1025px){
+    #Services {
+        margin: 4rem -3rem 0rem 6rem;
+    }
+    .h5{
+        margin-left: -1rem;
+    }
+   .h2{
+    margin-left: 0rem;
+   }
+}
